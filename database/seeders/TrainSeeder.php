@@ -26,6 +26,8 @@ class TrainSeeder extends Seeder
         $train->in_time = $faker->boolean();
         $train->canceled = $faker->boolean();
 
+        $train->save();
+
 
         // $table->id();
         // $table->string('type', 50);
